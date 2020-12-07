@@ -3,3 +3,4 @@
 这是一个使用typescript开发的组件。
 使用方法：
 var grid = new Grid();
+var cell = grid.getCell(1,1);
