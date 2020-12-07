@@ -19,6 +19,9 @@ class DrawCanvas implements ICanvas{
         this.ctx.lineTo(start.X + width, start.Y+height);
 
         this.ctx.lineTo(start.X + width, start.Y);
+
+        this.ctx.font="20px Arial";
+        this.ctx.fillText(cell.showText,start.X+10,start.Y + 20);
     }
 
     paint(): void {
